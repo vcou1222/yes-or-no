@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import html2canvas from "html2canvas";
 import type { DecisionResult } from "../utils/decide";
 import { ShareCard } from "./ShareCard";
 
@@ -26,6 +25,7 @@ export function ShareModal({ open, question, result, onClose, onReroll }: ShareM
 
     try {
       setIsExporting(true);
+      const { default: html2canvas } = await import("html2canvas");
       const canvas = await html2canvas(cardRef.current, {
         backgroundColor: null,
         scale: 2,

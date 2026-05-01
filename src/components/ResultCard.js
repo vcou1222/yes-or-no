@@ -1,4 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-export function ResultCard({ question, result, onOpenShare, onReroll, }) {
-    return (_jsxs("section", { className: "result-card reveal", children: [_jsx("p", { className: "result-kicker", children: "\u4F60\u95EE\u7684\u662F" }), _jsx("p", { className: "result-question", children: question }), _jsx("p", { className: "result-decision-kicker", children: "\u51B3\u5B9A\uFF1A" }), _jsx("p", { className: "decision decision-animate", children: result.label }), _jsx("p", { className: "result-reason", children: result.reason }), _jsxs("div", { className: "result-actions", children: [_jsx("button", { type: "button", className: "secondary-button", onClick: onOpenShare, children: "\u751F\u6210\u6211\u7684\u51B3\u5B9A\u5361\u7247" }), _jsx("button", { type: "button", className: "text-button", onClick: onReroll, children: "\u6362\u4E00\u4E2A\u95EE\u9898" })] })] }));
-}
