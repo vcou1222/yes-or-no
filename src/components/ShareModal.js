@@ -1,7 +1,7 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useRef, useState } from "react";
 import html2canvas from "html2canvas";
-import { ShareCard } from "./ShareCard.js";
+import { ShareCard } from "./ShareCard";
 export function ShareModal({ open, question, result, onClose, onReroll }) {
     const cardRef = useRef(null);
     const [isExporting, setIsExporting] = useState(false);

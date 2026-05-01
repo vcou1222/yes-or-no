@@ -1,4 +1,4 @@
-import type { DecisionResult } from "../utils/decide.js";
+import type { DecisionResult } from "../utils/decide";
 
 type ResultCardProps = {
   question: string;

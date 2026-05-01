@@ -1,4 +1,4 @@
-import { placeholderList } from "../data/reasons.js";
+import { placeholderList } from "../data/reasons";
 
 type DecisionInputProps = {
   value: string;

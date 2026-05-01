@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import html2canvas from "html2canvas";
-import type { DecisionResult } from "../utils/decide.js";
-import { ShareCard } from "./ShareCard.js";
+import type { DecisionResult } from "../utils/decide";
+import { ShareCard } from "./ShareCard";
 
 type ShareModalProps = {
   open: boolean;

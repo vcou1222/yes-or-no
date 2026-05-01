@@ -6,7 +6,7 @@ import {
   genericReasons,
   type DecisionCategory,
   type DecisionType,
-} from "../data/reasons.js";
+} from "../data/reasons";
 
 export type DecisionResult = {
   type: DecisionType;

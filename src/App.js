@@ -1,9 +1,9 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useEffect, useRef, useState } from "react";
-import { DecisionInput } from "./components/DecisionInput.js";
-import { ResultCard } from "./components/ResultCard.js";
-import { ShareModal } from "./components/ShareModal.js";
-import { decide } from "./utils/decide.js";
+import { DecisionInput } from "./components/DecisionInput";
+import { ResultCard } from "./components/ResultCard";
+import { ShareModal } from "./components/ShareModal";
+import { decide } from "./utils/decide";
 export default function App() {
     const [question, setQuestion] = useState("");
     const [result, setResult] = useState(null);

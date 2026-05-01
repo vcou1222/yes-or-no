@@ -1,5 +1,5 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { placeholderList } from "../data/reasons.js";
+import { placeholderList } from "../data/reasons";
 export function DecisionInput({ value, isLoading, isShaking, errorText, onChange, onSubmit, placeholderIndex, }) {
     const placeholder = placeholderList[placeholderIndex % placeholderList.length];
     const isDisabled = value.trim().length < 2 || isLoading;

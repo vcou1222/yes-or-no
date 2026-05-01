@@ -1,4 +1,4 @@
-import { categoryKeywords, categoryReasons, decisionLabels, decisionWeights, genericReasons, } from "../data/reasons.js";
+import { categoryKeywords, categoryReasons, decisionLabels, decisionWeights, genericReasons, } from "../data/reasons";
 export function detectCategory(question) {
     for (const [category, pattern] of Object.entries(categoryKeywords)) {
         if (pattern.test(question)) {
